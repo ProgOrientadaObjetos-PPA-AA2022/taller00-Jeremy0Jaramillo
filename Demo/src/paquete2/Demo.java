@@ -5,7 +5,8 @@
  */
 package paquete2;
 
-
+import paquete1.Mensaje;
+import paquete3.Valor;
 /**
  *
  * @author reroes
@@ -17,7 +18,10 @@ public class Demo {
      */
     public static void main(String[] args) {
         
-        System.out.printf();
+        String frase = Mensaje.obtenerFrase();
+        int numero = Valor.obtenerHabitantes();
+        
+        System.out.printf("%s con %s \n", frase, numero);
     }
     
 }
